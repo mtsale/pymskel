@@ -3,7 +3,6 @@
 # limits of the footprints relative to the mean 
 # bone in a percentage like the Wolf paper
 # - TIBIA only
-# Not configured for femur because of the slant
 #
 # M. Sale
 # 17 June 2021
@@ -138,6 +137,7 @@ def save(path, data):
 def save_centroids(path, data):
     """
     NEW function Sept 2021
+    saves array of centroid data to csv
     """
     # Write the saved values to a csv
     try:
@@ -152,6 +152,8 @@ def save_centroids(path, data):
 def save_footprint(path, data):
     """
     NEW function Sept 2021
+    Identical to save(). This function is available for better code clarity and use. 
+    saves footprint bounds data from list of lists to csv
     """
     # Write the saved values to a csv
     try:
