@@ -1,5 +1,5 @@
 #
-# * Use: from pymskel import femur2
+# * Use: from pymskel import femur
 #
 #
 # M. Sale July 8 2021
